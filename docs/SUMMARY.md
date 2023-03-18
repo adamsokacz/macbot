@@ -1,14 +1,14 @@
 # Table of contents
 
 * [About](README.md)
-* [Project Install](install.md)
+* [Setup](setup.md)
 * [Status](page-1.md)
 * [Connect](connect.md)
 
-## 📖 Student Labs
+## 📖 LiDAR
 
-* [LiDAR](https://github.com/sokacza/macbot/blob/main/docs/Labs/LiDAR/LiDAR.pdf)
-* [MacBot](https://github.com/sokacza/macbot/blob/main/docs/Labs/MacBot/MacBot.pdf)
+* [LiDAR PDF](https://github.com/sokacza/macbot/blob/main/docs/Labs/LiDAR/LiDAR.pdf)
+* [LiDAR Word](https://github.com/adamsokacz/macbot/raw/main/docs/Labs/LiDAR/LiDAR.docx)
 
 ## 🗃 Old Student Labs
 
