@@ -20,7 +20,7 @@ PSWD: %A0AB1B83C3B4
 
 </details>
 
-| Name     |               | MAC               | Status                                  |
+| Name     | IP Address    | MAC               | Status                                  |
 | -------- | ------------- | ----------------- | --------------------------------------- |
 | macbot01 | 192.168.0.101 | 1c:bf:ce:f6:5d:b5 | Working                                 |
 | macbot02 | 192.168.0.102 | 1c:bf:ce:ef:13:06 | Power distribution requires replacement |
