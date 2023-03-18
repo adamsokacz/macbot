@@ -7,7 +7,7 @@
 
 ## 📖 LiDAR
 
-* [LiDAR PDF](https://github.com/sokacza/macbot/blob/main/docs/Labs/LiDAR/LiDAR.pdf)
+* [LiDAR PDF](https://github.com/adamsokacz/macbot/raw/main/docs/Labs/LiDAR/LiDAR.pdf)
 * [LiDAR Word](https://github.com/adamsokacz/macbot/raw/main/docs/Labs/LiDAR/LiDAR.docx)
 
 ## 🗃 Old Student Labs
