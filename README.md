@@ -1,3 +1,2 @@
-# macbot
-
-https://sokacza.gitbook.io/macbot-docs
+# Documentation Website
+https://adam-36.gitbook.io/macbot/
