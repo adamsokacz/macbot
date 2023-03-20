@@ -14,11 +14,11 @@ Home Edition, Windows Installer
 
 Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Downloads/ folder
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Run the MobaXTerm MSI installer with the default configuration.
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## MobaXTerm Session
 
@@ -30,9 +30,9 @@ MobaXTerm Session File
 
 Open MobaXTerm and load the downloaded session file.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ## Connecting to the MacBot
 
@@ -44,7 +44,7 @@ Ensure that your MacBot is powered ON and booted by waiting 2 minutes.
 
 Click **Connect to MacBot##**.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image.png" alt=""><figcaption></figcaption></figure>
 
 Enter the password for your MacBot, which can be found here:
 
@@ -90,7 +90,7 @@ After a few moments, you will be able to see and interact with your desktop.
 
 Click **Fullscreen** and untoggle **Always on Top**.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 You can now use **TAB + Windows** to toggle between your open tabs
 
