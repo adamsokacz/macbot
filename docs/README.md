@@ -1,4 +1,4 @@
-# ❔ About
+# About
 
 ### What is the MacBot?
 
