@@ -2,7 +2,7 @@
 description: Establishing a remote desktop connection to the MacBot unit
 ---
 
-# Connect
+# 🔌 Connect
 
 ## Install MobaXTerm
 
@@ -38,7 +38,7 @@ Open MobaXTerm and load the downloaded session file.
 
 Ensure that you are connected to Mac-WiFi.
 
-![](broken-reference)
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Ensure that your MacBot is powered ON and booted by waiting 2 minutes.
 
