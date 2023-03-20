@@ -68,7 +68,7 @@ sudo apt -y install neofetch
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image(3).png" alt=""><figcaption></figcaption></figure>
 
 Ensure that the VNC server is running on port 5902 using the following command:
 
@@ -76,17 +76,17 @@ Ensure that the VNC server is running on port 5902 using the following command:
 vncserver -list
 ```
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image(4).png" alt=""><figcaption></figcaption></figure>
 
 Connect to the MacBot by pressing the **View Desktop** button.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image(5).png" alt=""><figcaption></figcaption></figure>
 
 You will be prompted for your password once more. Press **OK**.
 
 After a few moments, you will be able to see and interact with your desktop.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image(6).png" alt=""><figcaption></figcaption></figure>
 
 Click **Fullscreen** and untoggle **Always on Top**.
 
