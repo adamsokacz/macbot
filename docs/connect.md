@@ -6,100 +6,91 @@ description: Establishing a remote desktop connection to the MacBot unit
 
 ## Install MobaXTerm
 
-{% embed url="https://mobaxterm.mobatek.net/download-home-edition.html" %}
-If on a lab PC, choose 'Portable', otherwise choose 'Installer'
+
+
+{% embed url="https://download.mobatek.net/2302023012231703/MobaXterm_Installer_v23.0.zip" %}
+Home Edition, Windows Installer
 {% endembed %}
 
-## Connection Profiles
-
-### Profile Links
-
-{% embed url="https://raw.githubusercontent.com/adamsokacz/macbot/main/docs/Labs/Profiles/MacBot_SSH.moba" %}
-SSH Bash Profile
-{% endembed %}
-
-{% embed url="https://raw.githubusercontent.com/adamsokacz/macbot/main/docs/Labs/Profiles/MacBot_VNC.moba" %}
-VNC Profile
-{% endembed %}
-
-### Save each profile using the following steps:
-
-* Click profile RAW link
-* Click **Save Page As**
-
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-* Change file type to **All Files**
-
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-* Save to your Desktop/
-
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-## Lab Network
-
-Use the following credentials to connect to the lab network on your personal PC:
-
-{% content-ref url="page-1.md" %}
-[page-1.md](page-1.md)
-{% endcontent-ref %}
-
-## Connecting
-
-Click the MacBot\_SSH profile . MobaXTerm will open.
-
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-Search for a **MacBot##** label on your MacBot unit
-
-![](<.gitbook/assets/image (8).png>)
-
-Create an **SSH tunnel** to your MacBot unit over the **lab network.**
-
-{% tabs %}
-{% tab title="Bash Command" %}
-```bash
-ssh -L 5902:localhost:5902 jnano@macbot01
-```
-{% endtab %}
-
-{% tab title="Template" %}
-```bash
-ssh -L PC_Port:localhost:MacBot_Port user@pc_ip_or_name##
-```
-
-
-{% endtab %}
-{% endtabs %}
-
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-Start the VNC server by using **\~./autostart\_vnc.bash**
-
-```bash
-~/autostart_vnc.bash
-```
-
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-Without closing the SSH tunnel tab, load the VNC profile
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-Enter the provided **MacBot password**:
-
-{% content-ref url="page-1.md" %}
-[page-1.md](page-1.md)
-{% endcontent-ref %}
-
-A VNC session will be established
+Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Downloads/ folder
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+Run the MobaXTerm MSI installer with the default configuration.
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+## MobaXTerm Session
+
+Download the following session file to your Downloads/ folder. It contains the pre-configured environment for establishing an SSH tunnel to and streaming a graphical interface from each MacBot.
+
+{% file src="broken-reference" %}
+MobaXTerm Session File
+{% endfile %}
+
+Open MobaXTerm and load the downloaded session file.
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+## Connecting to the MacBot
+
+Ensure that you are connected to Mac-WiFi.
+
+![](broken-reference)
+
+Ensure that your MacBot is powered ON and booted by waiting 2 minutes.
+
+Click **Connect to MacBot##**.
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+Enter the password for your MacBot, which can be found here:
+
+{% content-ref url="setup.md" %}
+[setup.md](setup.md)
+{% endcontent-ref %}
+
+Run neofetch to verify that you are connected to the correct machine.
+
+{% tabs %}
+{% tab title="Run NeoFetch" %}
+```bash
+neofetch
+```
+{% endtab %}
+
+{% tab title="Install NeoFetch" %}
+```
+sudo apt -y install neofetch
+```
+{% endtab %}
+{% endtabs %}
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+Ensure that the VNC server is running on port 5902 using the following command:
+
+```bash
+vncserver -list
+```
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+Connect to the MacBot by pressing the **View Desktop** button.
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
+You will be prompted for your password once more. Press **OK**.
+
+After a few moments, you will be able to see and interact with your desktop.
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
 Click **Fullscreen** and untoggle **Always on Top**.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can now use **TAB + Windows** to toggle between your open tabs
 
