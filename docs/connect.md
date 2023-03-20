@@ -18,7 +18,7 @@ Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Down
 
 Run the MobaXTerm MSI installer with the default configuration.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## MobaXTerm Session
 
