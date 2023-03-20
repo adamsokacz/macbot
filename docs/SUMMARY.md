@@ -4,6 +4,7 @@
 * [💾 Setup](setup.md)
 * [⭐ Status](page-1.md)
 * [Connect](connect.md)
+* [🗃 GitHub](https://github.com/adamsokacz/macbot)
 
 ## 📖 LiDAR
 
