@@ -1,9 +1,10 @@
 # Table of contents
 
-* [About](README.md)
-* [Setup](setup.md)
-* [Status](page-1.md)
-* [Connect](connect.md)
+* [🗃 GitHub](https://github.com/adamsokacz/macbot)
+* [❔ About](README.md)
+* [💾 Setup](setup.md)
+* [⭐ Status](page-1.md)
+* [🔌 Connect](connect.md)
 
 ## 📖 LiDAR
 
