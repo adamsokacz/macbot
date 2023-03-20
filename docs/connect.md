@@ -14,11 +14,11 @@ Home Edition, Windows Installer
 
 Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Downloads/ folder
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Run the MobaXTerm MSI installer with the default configuration.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## MobaXTerm Session
 
@@ -32,11 +32,15 @@ Open MobaXTerm and load the downloaded session file.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
+## Connecting to the MacBot
 
+Ensure that you are connected to Mac-WiFi.
 
+![](.gitbook/assets/image.png)
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Click **Fullscreen** and untoggle **Always on Top**.
 
