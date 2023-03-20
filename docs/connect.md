@@ -14,13 +14,23 @@ Home Edition, Windows Installer
 
 Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Downloads/ folder
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Run the MobaXTerm MSI installer with the default configuration.
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-## Connection Profiles
+## MobaXTerm Session
+
+Download the following session file to your Downloads/ folder. It contains the pre-configured environment for establishing an SSH tunnel to and streaming a graphical interface from each MacBot.
+
+{% file src=".gitbook/assets/MacBot.mxtsessions" %}
+MobaXTerm Session File
+{% endfile %}
+
+Open MobaXTerm and load the downloaded session file.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
