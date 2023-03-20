@@ -14,11 +14,11 @@ Home Edition, Windows Installer
 
 Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Downloads/ folder
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Run the MobaXTerm MSI installer with the default configuration.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## MobaXTerm Session
 
@@ -30,7 +30,7 @@ MobaXTerm Session File
 
 Open MobaXTerm and load the downloaded session file.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ Open MobaXTerm and load the downloaded session file.
 
 Ensure that you are connected to Mac-WiFi.
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (4).png>)
 
 Ensure that your MacBot is powered ON and booted by waiting 2 minutes.
 
@@ -76,7 +76,7 @@ Ensure that the VNC server is running on port 5902 using the following command:
 vncserver -list
 ```
 
-<figure><img src=".gitbook/assets/MicrosoftTeams-image(4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MicrosoftTeams-image(4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Connect to the MacBot by pressing the **View Desktop** button.
 
