@@ -44,6 +44,10 @@ Click **Connect to MacBot##**.
 
 <figure><img src=".gitbook/assets/MicrosoftTeams-image.png" alt=""><figcaption></figcaption></figure>
 
+When prompted to save the password, always select **No**.
+
+<figure><img src=".gitbook/assets/MicrosoftTeams-image (2).png" alt=""><figcaption></figcaption></figure>
+
 Enter the password for your MacBot, which can be found here:
 
 {% content-ref url="setup.md" %}
