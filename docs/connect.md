@@ -16,17 +16,15 @@ Use 7Zip or Windows Zip Extractor to extract the compressed folder into the Down
 
 <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-Run the MobaXTerm MSI installer with the default configuration.
+Run the MobaXTerm MSI installer with the default install configuration.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## MobaXTerm Session
 
 Download the following session file to your Downloads/ folder. It contains the pre-configured environment for establishing an SSH tunnel to and streaming a graphical interface from each MacBot.
 
-{% file src="broken-reference" %}
-MobaXTerm Session File
-{% endfile %}
+{% file src=".gitbook/assets/MacBot.mxtsessions" %}
 
 Open MobaXTerm and load the downloaded session file.
 
@@ -90,7 +88,7 @@ After a few moments, you will be able to see and interact with your desktop.
 
 Click **Fullscreen** and untoggle **Always on Top**.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can now use **TAB + Windows** to toggle between your open tabs
 
