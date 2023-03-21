@@ -44,15 +44,15 @@ Click **Connect to MacBot##**.
 
 <figure><img src=".gitbook/assets/MicrosoftTeams-image.png" alt=""><figcaption></figcaption></figure>
 
-When prompted to save the password, always select **No**.
-
-<figure><img src=".gitbook/assets/MicrosoftTeams-image (2).png" alt=""><figcaption></figcaption></figure>
-
 Enter the password for your MacBot, which can be found here:
 
 {% content-ref url="setup.md" %}
 [setup.md](setup.md)
 {% endcontent-ref %}
+
+When prompted to save the password, always select **No**.
+
+<figure><img src=".gitbook/assets/MicrosoftTeams-image (2).png" alt=""><figcaption></figcaption></figure>
 
 Run neofetch to verify that you are connected to the correct machine.
 
