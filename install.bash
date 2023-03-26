@@ -2,22 +2,32 @@
 
 rm ./install_log.txt
 touch ./install_log.txt
-mkdir temporary
+echo "Start install" > ./install_log.txt
 
+mkdir macbot_ws
 
-sudo apt -y install git perl wget ros-melodic-teleop-twist-keyboard ros-melodic-scan-tools
+# For melodic and general
+sudo apt -y install git 
+sudo apt -y install perl 
+sudo apt -y install wget 
 sudo apt -y install libsdl-image1.2-dev
 sudo apt -y install libsdl-dev
-sudo apt -y install cmake libsdl2-dev g++
+
+# For ydlidar
+sudo apt -y install cmake libsdl2-dev g++ 
 sudo apt -y install can-isotp rospkg
- 
-sudo echo "Installed packages" >> ./install_log.txt
 
+# For GoLink CAN interface
+sudo apt -y install python3 python3-pip python-can python-can-isotp 
+sudo pip3 install -U rospkg
 
-
- 
+# Required additional ROS packages
+sudo apt -y install ros-melodic-teleop-twist-keyboard 
+sudo apt -y install ros-melodic-scan-tools
 sudo apt install ros-melodic-turtlesim 
-sudo echo "Installed ROS TurtleSim" >> ./install_log.txt 
+
+
+sudo echo "Installed packages" >> ./install_log.txt
 
 
 
